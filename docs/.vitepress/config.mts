@@ -24,6 +24,9 @@ export default withMermaid(defineConfig({
     }
   },
 
+  lastUpdated: true,//显示md最后更新时间
+  base: '/ai-developer-roadmap/',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -154,7 +157,7 @@ export default withMermaid(defineConfig({
     ],
 
     socialLinks: [
-      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
 
     search: {
@@ -162,7 +165,7 @@ export default withMermaid(defineConfig({
     },
 
     footer: {
-      message: 'Released under the MIT License.',
+      message: '从零开始的AI应用之路.',
       copyright: 'Copyright © 2026 AI Developer Roadmap'
     }
   }
